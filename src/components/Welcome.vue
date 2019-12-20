@@ -1,11 +1,7 @@
 <template>
-<<<<<<< HEAD
   <div>
     <h3>Welcome</h3>
   </div>
-</template>
-=======
-    <h3>Welcome</h3>
 </template>
 
 <script>
@@ -17,4 +13,3 @@
 <style scoped>
 
 </style>
->>>>>>> user
