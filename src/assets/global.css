@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* 全局样式表 */
 html,
 body,
@@ -8,18 +9,35 @@ body,
   min-width: 1366px;
 }
 
+=======
+/*全局样式表*/
+  html ,body,#app {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+>>>>>>> user
 .el-breadcrumb {
   margin-bottom: 15px;
   font-size: 12px;
 }
+<<<<<<< HEAD
 
 .el-card {
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15) !important;
+=======
+.el-card {
+  box-shadow: 0 1px 1px rgba(0,0,0,0.15) !important;
+>>>>>>> user
 }
 
 .el-table {
   margin-top: 15px;
+<<<<<<< HEAD
   font-size: 12px;
+=======
+  font-size:12px;
+>>>>>>> user
 }
 
 .el-pagination {
