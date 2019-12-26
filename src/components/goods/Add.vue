@@ -37,7 +37,7 @@
               <el-input v-model="addForm.goods_number" type="number"></el-input>
             </el-form-item>
             <el-form-item label="商品分类" prop="goods_cat">
-              <el-cascader expand-trigger="hover" :options="catelist" :props="cateProps" v-model="addForm.goods_cat" @change="handleChange">
+              <el-cascader  :options="catelist" :props="cateProps" v-model="addForm.goods_cat" @change="handleChange">
               </el-cascader>
             </el-form-item>
           </el-tab-pane>
@@ -124,7 +124,8 @@
         cateProps:{
           label:'cat_name',
           value:'cat_id',
-          children:'children'
+          children:'children',
+          expandTrigger: 'hover'
         },
         // 动态参数列表数据
         manyTableData: [],
